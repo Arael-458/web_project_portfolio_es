@@ -55,13 +55,24 @@ img {
 }
 .project-card__image {
   position: relative;
-  background-image: url(../../Images/img/cafeteria.jpg);
   aspect-ratio: 16 / 9;
   width: 100%;
   background-size: cover;
   background-position: center;
   overflow: hidden;
   max-width: 100%;
+}
+
+.project-card__image_coffeeshop {
+  background-image: url(../../Images/img/cafeteria.jpg);
+}
+
+.project-card__image_around {
+  background-image: url(../../Images/img/Around\ the\ US.jpg);
+}
+
+.project-card__image_expenses {
+  background-image: url(../../Images/img/Expenses.jpg);
 }
 
 .project-card__overlay {

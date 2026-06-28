@@ -3,36 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MiPortafolio</title>
+    <title>Portafolio | Daniel Sánchez</title>
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
+
   <body class="page">
     <header class="header">
       <div class="container header__container">
         <div class="header__hero">
           <div class="header__info">
             <h1 class="header__name">Daniel <br />Sánchez</h1>
+
             <p class="header__role">
               Desarrollador Full-Stack Junior | TypeScript, React, Node.js
             </p>
+
             <p class="header__description">
               Desarrollador web junior con experiencia práctica creando
               interfaces limpias y responsivas con HTML, CSS, JavaScript y
-              React, así como implementando lógica básica de back-end. Ha
+              React, además de conocimientos básicos de desarrollo back-end. He
               trabajado en proyectos formativos que siguen procesos reales de
               desarrollo, usando Git, GitHub y Figma. Disfruto colaborar en
               equipo, mantener un código claro y resolver problemas de forma
-              estructurada. Motivado por seguir aprendiendo, asumir nuevos retos
-              y aprovechar oportunidades para crecer como desarrollador.
+              estructurada.
             </p>
-            <div class="hero-links">
-              <a href="#" class="hero-link"> Descargar CV </a>
 
-              <a href="https://github.com/Arael-458" class="hero-link">
+            <div class="hero-links">
+              <a
+                href="./CV/Daniel_Sánchez_CV.pdf"
+                class="hero-link"
+                target="_blank"
+                download
+              >
+                Descargar CV
+              </a>
+              <a
+                href="https://github.com/Arael-458"
+                class="hero-link"
+                target="_blank"
+                rel="noopener"
+              >
                 Enlace a GitHub
               </a>
-
-              <a href="#contact" class="hero-link"> Hablemos </a>
+              <a href="#contact" class="hero-link">Hablemos</a>
             </div>
           </div>
 
@@ -43,37 +56,50 @@
             />
           </div>
         </div>
+
+        <section class="about">
+          <h2 class="about__title">Sobre mí</h2>
+          <p class="about__text">
+            Soy desarrollador web junior en formación, enfocado en construir
+            interfaces funcionales, responsivas y bien estructuradas. Me
+            interesa seguir creciendo en desarrollo front-end y full-stack,
+            aplicando buenas prácticas de código, control de versiones y
+            documentación clara de proyectos.
+          </p>
+        </section>
+
         <h2 class="header__skills-title">Habilidades y herramientas</h2>
+
         <div class="header__skills">
           <img
             class="header__skills-icons"
             src="./Images/Iconos/Group 120570.svg"
-            alt="Ícono de HTML"
+            alt="HTML"
           />
           <img
             class="header__skills-icons"
             src="./Images/Iconos/Group 2087326844.svg"
-            alt="Ícono de CSS"
+            alt="CSS"
           />
           <img
             class="header__skills-icons"
             src="./Images/Iconos/Group 120568.svg"
-            alt="Ícono de JavaScript"
+            alt="JavaScript"
           />
           <img
             class="header__skills-icons"
             src="./Images/Iconos/Group 2087326846.svg"
-            alt="Ícono de Git"
+            alt="Git"
           />
           <img
             class="header__skills-icons"
             src="./Images/Iconos/Group 2087326847.svg"
-            alt="Ícono de GitHub"
+            alt="GitHub"
           />
           <img
             class="header__skills-icons"
             src="./Images/Iconos/Group 2087326848.svg"
-            alt="Ícono de ChatGPT"
+            alt="ChatGPT"
           />
         </div>
       </div>
@@ -83,32 +109,35 @@
       <section class="projects">
         <div class="container main__container">
           <h2 class="projects__title">Proyectos destacados</h2>
+
           <div class="projects__grid">
             <article class="project-card">
-              <div class="project-card__image">
+              <div class="project-card__image project-card__image_coffeeshop">
                 <div class="project-card__overlay"></div>
                 <div class="project-card__icons">
-                  <img
-                    src="./Images/Iconos/Group 120570.svg"
-                    alt="Ícono de HTML"
-                  />
-                  <img
-                    src="./Images/Iconos/Group 2087326844.svg"
-                    alt="Ícono de CSS"
-                  />
+                  <img src="./Images/Iconos/Group 120570.svg" alt="HTML" />
+                  <img src="./Images/Iconos/Group 2087326844.svg" alt="CSS" />
                 </div>
               </div>
 
               <div class="project-card__content">
                 <h3 class="card__title">Página web de una cafetería</h3>
+
                 <p class="card__description">
-                  Desarrollo de una landing page responsiva para una cafetería
-                  siguiendo un brief de diseño. Incluye estructura semántica,
-                  maquetación con Flexbox, creación de secciones nuevas y un
-                  formulario de contacto funcional. Logro: Implementé desde cero
-                  el diseño completo de la página, organicé el proyecto con
-                  buenas prácticas y publiqué la versión final utilizando GitHub
-                  Pages.
+                  <strong>Contexto:</strong> Landing page desarrollada durante
+                  el bootcamp de TripleTen para practicar maquetación web
+                  responsiva.
+                </p>
+
+                <p class="card__description">
+                  <strong>Análisis:</strong> Se trabajó con estructura semántica
+                  en HTML, estilos con CSS, Flexbox, organización de archivos y
+                  buenas prácticas de desarrollo.
+                </p>
+
+                <p class="card__description">
+                  <strong>Resultado:</strong> Implementé el diseño completo de
+                  la página y publiqué la versión final mediante GitHub Pages.
                 </p>
 
                 <div class="project-card__links">
@@ -118,21 +147,138 @@
                     target="_blank"
                     rel="noopener"
                   >
-                    <img
-                      src="./Images/Iconos/Social Icons/Union.svg"
-                      alt="Ver demo en vivo"
-                    />
+                    <img src="./Images/Iconos/Social Icons/Union.svg" alt="" />
                     Demo en vivo
                   </a>
+
                   <a
                     href="https://github.com/Arael-458/web_project_coffeeshop_es"
                     class="link"
                     target="_blank"
                     rel="noopener"
                   >
+                    <img src="./Images/Iconos/Group 2087326847.svg" alt="" />
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card__image project-card__image_around">
+                <div class="project-card__overlay"></div>
+                <div class="project-card__icons">
+                  <img src="./Images/Iconos/Group 120570.svg" alt="HTML" />
+                  <img src="./Images/Iconos/Group 2087326844.svg" alt="CSS" />
+                  <img
+                    src="./Images/Iconos/Group 120568.svg"
+                    alt="JavaScript"
+                  />
+                </div>
+              </div>
+
+              <div class="project-card__content">
+                <h3 class="card__title">Around The U.S.</h3>
+
+                <p class="card__description">
+                  <strong>Contexto:</strong> Proyecto interactivo desarrollado
+                  para practicar JavaScript, manipulación del DOM y estructura
+                  de componentes.
+                </p>
+
+                <p class="card__description">
+                  <strong>Análisis:</strong> Se implementaron tarjetas, ventanas
+                  emergentes, formularios, validación básica y organización del
+                  código con enfoque modular.
+                </p>
+
+                <p class="card__description">
+                  <strong>Resultado:</strong> El proyecto reforzó mi comprensión
+                  de eventos, lógica de interfaz y publicación de aplicaciones
+                  web en GitHub Pages.
+                </p>
+
+                <div class="project-card__links">
+                  <a
+                    href="https://arael-458.github.io/web_project_around/"
+                    class="link"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <img src="./Images/Iconos/Social Icons/Union.svg" alt="" />
+                    Demo en vivo
+                  </a>
+
+                  <a
+                    href="https://github.com/Arael-458/web_project_around"
+                    class="link"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <img src="./Images/Iconos/Group 2087326847.svg" alt="" />
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card__image project-card__image_expenses">
+                <div class="project-card__overlay"></div>
+
+                <div class="project-card__icons">
+                  <img
+                    src="./Images/Iconos/Group 120568.svg"
+                    alt="Ícono de JavaScript"
+                  />
+                </div>
+              </div>
+
+              <div class="project-card__content">
+                <h3 class="card__title">Expenses Tracker</h3>
+
+                <p class="card__description">
+                  <strong>Contexto:</strong> Aplicación desarrollada durante el
+                  bootcamp de TripleTen para practicar JavaScript mediante la
+                  gestión de ingresos, gastos y categorías.
+                </p>
+
+                <p class="card__description">
+                  <strong>Análisis:</strong> Implementé manipulación del DOM,
+                  manejo de eventos, almacenamiento de información,
+                  actualización dinámica de la interfaz y organización del
+                  código siguiendo buenas prácticas.
+                </p>
+
+                <p class="card__description">
+                  <strong>Resultado:</strong> La aplicación permite registrar
+                  movimientos financieros, visualizar el balance actualizado y
+                  organizar los gastos por categorías de forma sencilla e
+                  intuitiva.
+                </p>
+
+                <div class="project-card__links">
+                  <a
+                    href="https://arael-458.github.io/web_project_expenses_es/"
+                    class="link"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <img
+                      src="./Images/Iconos/Social Icons/Union.svg"
+                      alt="Demo"
+                    />
+                    Demo en vivo
+                  </a>
+
+                  <a
+                    href="https://github.com/Arael-458/web_project_expenses_es"
+                    class="link"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     <img
                       src="./Images/Iconos/Group 2087326847.svg"
-                      alt="Ver repositorio en GitHub"
+                      alt="GitHub"
                     />
                     GitHub
                   </a>
@@ -148,9 +294,10 @@
       <div class="container footer__container">
         <div class="footer__circle">
           <h2 class="footer__title">Contacto</h2>
-          <a href="mailto:danielss_98@hotmail.com" class="footer__email"
-            >danielss_98@hotmail.com</a
-          >
+
+          <a href="mailto:danielss_98@hotmail.com" class="footer__email">
+            danielss_98@hotmail.com
+          </a>
 
           <div class="footer__social">
             <a
@@ -165,14 +312,11 @@
             </a>
 
             <a
-              href="https://www.facebook.com/dniel.daniel.5"
+              href="https://github.com/Arael-458"
               target="_blank"
               rel="noopener"
             >
-              <img
-                src="./Images/Iconos/Social Icons/Facebook/Negative.svg"
-                alt="Facebook"
-              />
+              <img src="./Images/Iconos/Group 2087326847.svg" alt="GitHub" />
             </a>
 
             <a
@@ -183,13 +327,6 @@
               <img
                 src="./Images/Iconos/Social Icons/Instagram/Negative.svg"
                 alt="Instagram"
-              />
-            </a>
-
-            <a href="https://x.com/Arael45" target="_blank" rel="noopener">
-              <img
-                src="./Images/Iconos/Social Icons/X (Twitter)/Negative.svg"
-                alt="X"
               />
             </a>
           </div>
